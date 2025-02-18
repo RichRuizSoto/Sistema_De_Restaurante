@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo Inherit</title>
+  <style>
+    .padre {
+      display: flex;
+    }
+    .hijo {
+      display: inherit; /* hereda display: flex de .padre */
+      background-color: lightgreen;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="padre">
+    <div class="hijo">Hijo con display heredado</div>
+  </div>
+</body>
+</html>
